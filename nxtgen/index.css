@@ -1,0 +1,86 @@
+.header {
+    width: 100%;
+    height: 100%;
+  
+    outline: solid 1px black;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(127, 188, 241);
+  }
+  .body1 {
+    width: 50%;
+    height: 10%;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  table,
+  th,
+  td {
+    width: 50%;
+    height: 10%;
+    margin-top: 30px;
+    border: 1px solid black;
+    background-color: rgb(116, 241, 116);
+  }
+  .body2 {
+    width: 50%;
+    height: 10%;
+  
+    display: flex;
+  }
+  .body {
+    display: flex;
+  }
+  
+  .section-body {
+    display: flex;
+    justify-content: center;
+    gap: 50vh;
+  }
+  .section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  
+    gap: 3rem;
+  }
+  .section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  
+    gap: 3rem;
+  }
+  .button2 {
+    width: 280px;
+    height: 50px;
+  }
+  .button1 {
+    width: 280px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  .approve-button {
+    background-color: rgb(29, 201, 29);
+    width: 50%; 
+    height: 100%;
+  }
+  .reject-button {
+    background-color: yellow;
+    width: 50%;
+    height: 100%;
+  }
+  .send-button {
+    background-color: rgb(80, 220, 241);
+    width: 100%;
+    height: 100%;
+  }
+  .body-button {
+    display: flex;
+    justify-content: center;
+    gap: 50vh;
+  }

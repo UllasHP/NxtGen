@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase Requests</title>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text-center box-padding" style="background: rgb(104, 198, 252);">
+                    <h1>Step - 1 Purchase Requests</h1>
+                    
+            </div>
+            </div>
+            </div>
+        </div>
+
+       
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 lg-12 mt-3">
+                <h3 style="text-align: center;">Billing team can use Unique ID based on Project Name/Account ID</h3>
+                <br>
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <tr>
+                            <th class="mains" style="" colspan="12"> Request</th>
+                        </tr>
+                        <tr>
+                            <th>Request number</th>
+                            <th>Date</th>
+                            <th>Product</th>
+                            <th>Product Description</th>
+                            <th>Brand name (optional)</th>
+                            <th>Quantity</th>
+                            <th>Project Name</th>
+                            <th>Account ID</th>
+                            <th>Order ID</th>
+                            <th>Unique ID</th>
+                            <th>Location of Requirement</th>
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="date" placeholder="select date"></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="date" placeholder="select date"></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="date" placeholder="select date"></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                        </tr>
+
+                    </table>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row " style="margin-top: 30px;">
+            <div class="remove-padding add-padding">
+
+            
+            <form action="exp.db" method="post" enctype="multipart/form-data">
+            <div class="col-md-12"><div class="form-group row">
+                <label for="upload" class="col-sm-2 col-form-label">Upload</label>
+                <div class="col-sm-10">
+                    <input type="file" name="file_upload"  class="form-control"> <br><br>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="approver_name" class="col-sm-2 col-form-label">Approved by:</label>
+                <div class="col-sm-10">
+                    <input type="text" name="approver_name" class="form-control">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="timeline" class="col-sm-2 col-form-label">Timeline:</label>
+                <div class="col-sm-10">
+                    <input type="text" name="timeline" class="form-control">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="timeline" class="col-sm-2 col-form-label">Department:</label>
+                <div class="col-sm-10">
+                   <select name="" id="" class="form-control">
+                    <option value="">Select deparemnt</option>
+                    <option value="">A</option>
+                    <option value="">B</option>
+                   </select>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="timeline" class="col-sm-2 col-form-label">IT Equipments:</label>
+                <div class="col-sm-10">
+                   <select name="" id="" class="form-control">
+                    <option value="">Select IT Equipments</option>
+                    <option value="">A</option>
+                    <option value="">B</option>
+                   </select>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div style="margin-top: 20px;">
+                    <ol>
+                        <li>Requestor will choose department and type of Purchase Request </li>
+                        <li> Based on Department and request, email to be sent to PM or HSS</li>
+                        <li>HSS if Department is Shared services</li>
+                        <li>PM if Department is Others </li>
+                        <li>Anything related to Office expenses, select Shared Services </li>
+                    </ol>
+                </div>
+                
+            </div>
+            <div class="text-center">
+                <input type="button" value="submit" class="btn btn-primary">
+            </div>
+            
+        </div>
+        </form>
+    </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text-center">
+                    <h4 class="text-success">Email sent to PM or HSS based on Department selected, informing them of the same</h4>
+                    <h4 class="text-warning">Ticket is assigned to PM/HSS based on request classification</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- <div class="container">
+        <div class="row">
+            <div class="table">
+                <table >
+                    <td>
+                        <form action="exp.db" method="post" enctype="multipart/form-data">
+                            <div class="form-group row">
+                                <label for="upload" class="col-sm-2 col-form-label">Upload</label>
+                                <div class="col-sm-10">
+                                    <input type="file" name="file_upload"> <br><br>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="approver_name" class="col-sm-2 col-form-label">Approved by:</label>
+                                <div class="col-sm-10">
+                                    <input type="text" name="approver_name" class="form-control">
+                                </div>
+                            </div>
+            </div>
+            <div class="form-group row">
+                <label for="timeline" class="col-sm-2 col-form-label">Timeline:</label>
+                <div class="col-sm-10">
+                    <input type="text" name="timeline" class="form-control">
+                </div>
+            </div>
+
+            <label for="departments">Departments:</label>
+            <select name="departments" id="departments">
+                <option value="others">Others</option>
+                <option value="a">C</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+            </select>
+            <label for="type">Type:</label>
+            <select name="type" id="type">
+                <option value="it-equipments">IT Equipments</option>
+                <option value="a">C</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+            </select> <br>
+            <div class="form-group row">
+                <ol>
+                    <li>Requestor will choose department and type of Purchase Request </li>
+                    <li> Based on Department and request, email to be sent to PM or HSS</li>
+                    <li>HSS if Department is Shared services</li>
+                    <li>PM if Department is Others </li>
+                    <li>Anything related to Office expenses, select Shared Services </li>
+                </ol>
+            </div>
+
+            <div class="text-center">
+                <input type="submit" value="submit">
+            </div>
+           
+            </form>
+            </td>
+            </table>
+            <br>
+        </div>
+    </div> -->
+    </div>
+
+    
+
+
+
+
+
+</body>
+
+</html>
